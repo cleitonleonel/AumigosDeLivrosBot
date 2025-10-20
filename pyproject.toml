@@ -1,0 +1,28 @@
+[project]
+name = "aumigodelivrosbot"
+version = "1.0.0"
+description = "Um bot do Telegram inspirado na história do Instituto Aumigos de Livros, criado para aproximar leitores e amantes de animais através da solidariedade."
+authors = [
+    {name = "cleiton", email = "cleiton.leonel@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+dependencies = [
+    "requests>=2.32.3,<3.0.0",
+    "beautifulsoup4>=4.13.3,<5.0.0",
+    "toml>=0.10.2,<0.11.0",
+    "schedule>=1.2.2,<2.0.0",
+    "telethon>=1.40.0,<2.0.0",
+    "smartbot @ git+https://github.com/cleitonleonel/SmartBot.git",
+    "pypix @ git+https://github.com/cleitonleonel/pypix.git",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = true
+packages = [{include = "aumigodelivrosbot"}]
+include = ["src/media/*.png"]

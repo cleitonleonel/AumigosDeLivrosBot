@@ -1,0 +1,15 @@
+.env
+*.session
+__pycache__/
+trash/
+*.log
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
+sessions/
+config.toml
+*.egg-info/
+*.sh
