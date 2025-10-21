@@ -18,6 +18,14 @@ client = ClientHandler()
 @with_stack_and_cleanup()
 async def handle_menu(event: Any):
     """
+    Handles the "Menu Principal" message event triggered by users. This function
+    executes specific actions such as deleting the message, logging the event,
+    and responding with the appropriate menu.
+
+    :param event: New message event instance containing details about the message
+                  and the sender.
+    :type event: Any
+    :return: None
     """
     sender = await event.get_sender()
     sender_id = sender.id
