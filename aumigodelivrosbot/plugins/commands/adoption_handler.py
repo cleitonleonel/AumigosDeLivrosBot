@@ -11,15 +11,17 @@ logging.basicConfig(level=logging.INFO)
 client = ClientHandler()
 
 
-@client.on(events.CallbackQuery(pattern='/adotar'))
+@client.on(events.NewMessage(pattern='/adotar'))
 @with_stack_and_cleanup()
 async def handle_adoption(event: Any):
     """
-    Handles the adoption request when the '/adotar' callback query pattern is triggered.
-    The function fetches the sender's information, logs the relevant activity,
-    and responds with adoption-related information and a menu.
+    Handles the adoption command triggered by the '/adotar' pattern.
+    Deletes the triggering event, logs related user information,
+    and responds with an adoption contact message along with an
+    interactive adoption menu.
 
-    :param event: The CallbackQuery event is triggered when a user interacts with the defined command.
+    :param event: The NewMessage event object containing details of the
+                  incoming message, including the sender and client instance.
     :type event: Any
     :return: None
     """
