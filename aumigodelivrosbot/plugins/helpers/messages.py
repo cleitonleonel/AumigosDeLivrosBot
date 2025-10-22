@@ -39,7 +39,6 @@ NOSSA_EQUIPE = """
 🙌 Junte-se a nós e faça a diferença!
 """
 
-
 NOSSOS_NUMEROS = """
 📊 **Nossos Números**
 
@@ -161,22 +160,14 @@ Você pode fazer parte da nossa família Aumigo de Livros!
 
 PROXIMOS_EVENTOS = """
 📅 **Próximos Eventos**
-
-🎪 **Feira de Livros Aumigo**
-📍 Local: [A definir]
-📆 Data: Próximo sábado
-⏰ Horário: 9h às 17h
-
-🐾 **Dia de Adoção Responsável**
-📍 Local: Parque [Nome]
-📆 Data: [Data]
-⏰ Horário: 10h às 16h
-
-📚 **Campanha de Doação de Livros**
-📆 Período: O mês todo!
-📍 Vários pontos de coleta
-
-*Fique atento às nossas redes sociais para mais eventos!*
+No momento, não existe uma lista de eventos disponível aqui no bot. 🕐
+Toda a programação de feiras, campanhas e ações de adoção é divulgada
+exclusivamente em nossas redes sociais oficiais.
+👉 Acompanhe as próximas datas, horários e locais diretamente no nosso
+[Instagram](https://www.instagram.com/aumigodelivros/)), onde sempre postamos as atualizações mais recentes,
+fotos e novidades sobre nossos eventos! 💛🐶🐱
+**Fique atento às nossas redes sociais para mais eventos!**
+__Siga, curta e compartilhe para ajudar mais AUmigos a encontrarem um lar!__ 🐾
 """
 
 COMO_AJUDAR = """

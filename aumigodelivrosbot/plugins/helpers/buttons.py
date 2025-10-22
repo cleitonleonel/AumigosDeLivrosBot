@@ -163,7 +163,7 @@ def get_menu_buttons() -> list[list[Button]]:
     ]
 
     notifier_section = [
-        ("📅 Próximos Eventos", b"events"),
+        ("📅 Próximos Eventos", b"next_events"),
         ("🌐 Redes Sociais", b"social_media"),
     ]
 
