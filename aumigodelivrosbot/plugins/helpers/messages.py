@@ -159,9 +159,9 @@ Você pode fazer parte da nossa família Aumigo de Livros!
 """
 
 PROXIMOS_EVENTOS = """
-📅✨ *Próximos Eventos* ✨📅
+📅✨ **Próximos Eventos** ✨📅
 
-No momento, *não existe uma lista de eventos disponível aqui no bot*. 🕐  
+No momento, **não existe uma lista de eventos disponível aqui no bot**. 🕐  
 Toda a programação de feiras, campanhas e ações de adoção é divulgada  
 exclusivamente em nossas redes sociais oficiais. 🌐💛
 
@@ -171,8 +171,8 @@ exclusivamente em nossas redes sociais oficiais. 🌐💛
 • 🎉 Novidades sobre feiras e campanhas  
 • 💌 Atualizações importantes sobre nossos eventos  
 
-⭐ *Fique atento às nossas redes sociais para mais eventos!* ⭐  
-💛 _Siga, curta e compartilhe para ajudar mais AUmigos a encontrarem um lar!_ 🐾🐱🐶  
+⭐ **Fique atento às nossas redes sociais para mais eventos!** ⭐  
+💛 __Siga, curta e compartilhe para ajudar mais AUmigos a encontrarem um lar!__ 🐾🐱🐶  
 """
 
 COMO_AJUDAR = """
