@@ -41,6 +41,6 @@ async def handle_start(event: Any):
     )
 
     main_button = Button.text("📚 Menu Principal", resize=True)
-    main_img = "src/media/evento_1.png"
+    main_img = "src/media/evento_2.png"
     welcome_msg = await event.respond(welcome_message, buttons=main_button, file=main_img)
     event.client.drivers[sender_id][DELETE_KEY].append(welcome_msg.id)
