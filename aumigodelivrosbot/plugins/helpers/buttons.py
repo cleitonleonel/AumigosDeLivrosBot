@@ -135,6 +135,46 @@ def adoption_menu():
     return register_buttons
 
 
+def online_store_menu():
+    """
+    Generates an online store button for registration purposes.
+
+    This function creates a URL button for a registration form and
+    combines it with a set of additional navigation buttons using the
+    `go_back` function. The resulting buttons are returned in a list
+    format suitable for user interface integration.
+
+    :returns: A list containing the URL button for the registration form
+        and additional navigation buttons.
+    :rtype: list
+    """
+    url_store = "https://www.instagram.com/lojaaumigodelivros"
+    store_buttons = (
+            [[Button.url("Visite nossa Loja", url_store)]]
+            + go_back()
+    )
+
+    return store_buttons
+
+
+def location_menu():
+    """
+    Generates a set of inline buttons for the location menu along with a back button.
+
+    :return: A list of inline buttons for the location menu.
+    :rtype: list
+    """
+    location_section = [
+        ("🗺 Nossa Localização", b"location"),
+    ]
+    location_buttons = (
+            build_inline_buttons(location_section, cols=1)
+            + go_back()
+    )
+
+    return location_buttons
+
+
 def get_menu_buttons() -> list[list[Button]]:
     """
     Generates a structured menu layout with inline buttons categorized into multiple sections.

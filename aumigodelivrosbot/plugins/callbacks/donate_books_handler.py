@@ -4,7 +4,7 @@ from typing import Any
 from smartbot.utils.handler import ClientHandler
 from smartbot.utils.menu import with_stack_and_cleanup
 from aumigodelivrosbot.plugins.helpers.messages import DOAR_LIVROS
-from aumigodelivrosbot.plugins.helpers.buttons import go_back
+from aumigodelivrosbot.plugins.helpers.buttons import location_menu
 
 logging.basicConfig(level=logging.INFO)
 
@@ -32,6 +32,6 @@ async def handle_donate(event: Any):
     logging.info(f"[Donate Handler] by User ID: {sender_id}")
     logging.debug(f"Event Client Instance: {event.client}")
 
-    await event.respond(DOAR_LIVROS, buttons=go_back())
+    await event.respond(DOAR_LIVROS, buttons=location_menu())
 
     await event.delete()

@@ -165,13 +165,14 @@ No momento, **não existe uma lista de eventos disponível aqui no bot**. 🕐
 Toda a programação de feiras, campanhas e ações de adoção é divulgada  
 exclusivamente em nossas redes sociais oficiais. 🌐💛
 
-👉 Acompanhe as próximas datas, horários e locais diretamente no nosso  
-[Instagram](https://www.instagram.com/aumigodelivros/) 🐾📸, onde sempre postamos:  
+👉 Acompanhe as próximas datas, horários e locais diretamente 
+no nosso [Instagram](https://www.instagram.com/aumigodelivros/) 🐾📸, onde sempre postamos:  
 • 🐶 Fotos dos pets disponíveis para adoção  
 • 🎉 Novidades sobre feiras e campanhas  
 • 💌 Atualizações importantes sobre nossos eventos  
 
 ⭐ **Fique atento às nossas redes sociais para mais eventos!** ⭐  
+
 💛 __Siga, curta e compartilhe para ajudar mais AUmigos a encontrarem um lar!__ 🐾🐱🐶  
 """
 
