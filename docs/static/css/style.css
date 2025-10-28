@@ -677,12 +677,6 @@ h2::after {
   font-style: italic;
 }
 
-@media (max-width: 768px) {
-  .contributors-list {
-    grid-template-columns: 1fr;
-  }
-}
-
 .footer-bottom {
     margin-top: 40px;
     padding-top: 30px;
@@ -742,6 +736,11 @@ h2::after {
         font-size: 1.7em;
     }
 
+    .main-header::before,
+    .main-header::after {
+        opacity: 0.05;
+    }
+
     .tagline {
         font-size: 1em;
     }
@@ -753,6 +752,10 @@ h2::after {
     .cta-button {
         font-size: 1.1em;
         padding: 18px 45px;
+    }
+
+    .contributors-list {
+        grid-template-columns: 1fr;
     }
 
     section {
