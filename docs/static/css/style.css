@@ -36,7 +36,7 @@ body {
     content: '📚';
     position: absolute;
     font-size: 150px;
-    opacity: 0.05;
+    opacity: 0.50;
     top: -20px;
     left: 10%;
     animation: float 6s ease-in-out infinite;
@@ -46,9 +46,9 @@ body {
     content: '🐕';
     position: absolute;
     font-size: 120px;
-    opacity: 0.05;
+    opacity: 0.50;
     bottom: -10px;
-    right: 15%;
+    right: 8%;
     animation: float 8s ease-in-out infinite reverse;
 }
 
