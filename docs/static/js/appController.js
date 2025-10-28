@@ -16,7 +16,8 @@ async function loadGitHubContributors() {
 	const repo = 'AumigosDeLivrosBot';
 	const contributorsContainer = document.querySelector('.contributors-list');
 	
-	const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contributors`;
+	//const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contributors`;
+	const apiUrl = "colaboradores.json";
 	
 	try {
 		const response = await fetch(apiUrl);
@@ -62,7 +63,7 @@ async function loadGitHubContributors() {
                          style="width: 50px; height: 50px; border-radius: 50%; border: 3px solid var(--amarelo); flex-shrink: 0;">
                     <div class="contributor-info">
                         <strong>${contributor.login}</strong>
-                        <span class="contributor-role">${role} • ${contributor.contributions} contribuições</span>
+                        <!--<span class="contributor-role">${role} • ${contributor.contributions} contribuições</span>-->
                     </div>
                 </a>
             `;
