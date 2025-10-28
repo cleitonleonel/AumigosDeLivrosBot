@@ -1,0 +1,28 @@
+name: Atualizar colaboradores
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-collaborators:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Obter colaboradores via API do GitHub
+        run: |
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+               https://api.github.com/repos/${{ github.repository }}/collaborators \
+               > collaborators.json
+
+      - name: Commit e push do arquivo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add collaborators.json
+          git commit -m "Atualiza lista de colaboradores"
+          git push
